@@ -39,7 +39,4 @@ Sistem ini menjalankan 3 Task utama secara simultan pada ESP32:
 ## 🚀 Cara Menjalankan Simulasi
 
 1. Clone repositori ini:
-   ```bash
    git clone <https://github.com/AdityaYuditama/Week4---AKU-ADALAH-RTOS---Aditya-Yuditama>
-
-   ![alt text](image.png)
