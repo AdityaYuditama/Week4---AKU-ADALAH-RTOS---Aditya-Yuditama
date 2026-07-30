@@ -28,10 +28,11 @@ Sistem ini menjalankan 3 Task utama secara simultan pada ESP32:
 
 ## 🔌 Pinout & Hardware
 
-- **DHT22 Data Pin**: GPIO 15
-- **Push Button Pin**: GPIO 14 (Interrupt RISING)
-- **LED Red**: GPIO 4
-- **LED Green**: GPIO 2
+- **ESP32 Microcontroller**
+- **DHT22 Sensor Data Pin**: GPIO 15
+- **Push Button Pin**: GPIO 14 (Interrupt RISING) + **Resistor 10 kΩ** (Pull-down)
+- **LED Red**: GPIO 4 + **Resistor 220 Ω** (Current Limiter)
+- **LED Green**: GPIO 2 + **Resistor 220 Ω** (Current Limiter)
 
 ---
 
@@ -40,3 +41,5 @@ Sistem ini menjalankan 3 Task utama secara simultan pada ESP32:
 1. Clone repositori ini:
    ```bash
    git clone <https://github.com/AdityaYuditama/Week4---AKU-ADALAH-RTOS---Aditya-Yuditama>
+
+   ![alt text](image.png)
