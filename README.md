@@ -40,3 +40,5 @@ Sistem ini menjalankan 3 Task utama secara simultan pada ESP32:
 
 1. Clone repositori ini:
    git clone <https://github.com/AdityaYuditama/Week4---AKU-ADALAH-RTOS---Aditya-Yuditama>
+
+   tes push
